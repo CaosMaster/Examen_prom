@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce el nombre del elemento quimico :"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtelem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:text="Informacion del elemnto quimico"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtsimbolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simbolo quimico: "
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtnumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numero atomico: "
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simbolo quimico: "
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="peso atomico: "
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtebulli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="punto de ebullcicion: "
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtdensidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="densidad: "
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>

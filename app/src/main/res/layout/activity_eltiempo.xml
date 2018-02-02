@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escoge una de las siguientes localidades"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnBilbo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="BILBO-BILBAO"
+        android:layout_marginLeft="30dp"
+        android:onClick="bilbo"
+        />
+
+    <Button
+        android:id="@+id/btnGasteiz"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Gasteiz-Vitoria"
+        android:layout_marginLeft="30dp"
+        android:onClick="vitoria"
+        />
+
+    <Button
+        android:id="@+id/btnDonosti"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Donostia-San sebastian"
+        android:layout_marginLeft="30dp"
+        android:onClick="donosti"
+        />
+
+    <TextView
+        android:id="@+id/txtlocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo actual en :"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txthora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora: "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/txttemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperatura: "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/txtcielo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del cielo: "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:text="volver"
+        android:onClick="volver"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="200dp"
+        />
+</LinearLayout>

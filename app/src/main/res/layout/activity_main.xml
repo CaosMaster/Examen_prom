@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="MENU PRINCIPAL"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:id="@+id/btntiempo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="El tiempo"
+        android:onClick="Eltiempo"
+
+        />
+    <Button
+        android:id="@+id/btnatomicos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Datos Atomicos"
+        android:layout_gravity="center"
+        android:onClick="tomic"
+        />
+
+    <Button
+        android:id="@+id/btnmultimedia"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Multimedia"
+        android:layout_gravity="center"
+        android:onClick="Mutlti"
+        />
+
+    <Button
+        android:id="@+id/btnsalir"
+        android:layout_height="wrap_content"
+        android:layout_width="176dp"
+        android:text="exit"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="salir"
+        />
+  </LinearLayout>
